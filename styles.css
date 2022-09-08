@@ -1,0 +1,128 @@
+/**
+Palette: https://coolors.co/palette/05668d-427aa1-ebf2fa-679436-a5be00
+        https://coolors.co/palette/ff6b35-f7c59f-efefd0-004e89-1a659e
+Dark Blue: #004e89
+Light Blue: #1a659e
+Grey: #ebf2fa
+Dark Green: #679436
+Light Green: #a5be00
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Baloo Paaji 2', cursive;
+    
+}
+
+#header {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding: 40px 30px 40px 30px;
+    color: #ebf2fa;
+    text-shadow: 0 0 4px black;
+    margin: 0;
+}
+
+#content {
+    background-image: linear-gradient(to bottom right, red, yellow);
+    margin: 0;
+}
+
+#title-txt {
+    width: 600px;
+    margin: 0 auto;
+    padding: 8px 10px;
+    border-radius: 8px;
+    background: rgba(0, 78, 137, 0.8);
+        
+}
+
+#subtitle-txt {
+    width: 400px;
+    margin: 30px auto 0 auto;
+    font-weight: 500;
+    padding: 8px 10px;
+    border-radius: 8px;
+    background: rgba(26, 101, 158, 0.6);
+      
+}
+
+.section-txt {
+    padding: 60px auto;
+    margin: 0 0 30px 0;
+    color: #004e89;
+}
+
+#content {
+    background: rgba(26, 101, 158, 0.2);
+    margin: 0;
+    padding: 60px 0 10px 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 30px 30px;
+    color: #004e89;
+   
+}
+
+.activity {
+    width: 250px;
+    margin: 0 20px;
+}
+
+.feature-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 4px 4px #1a659e ;
+    
+}
+
+.feature-img:hover {
+    transform: scale(1.05);
+    
+}
+
+.activity-txt:hover {
+    background: #a5be00;
+}
+
+.detail-txt {
+    width: 600px;
+    margin: auto;
+        
+}
+
+#profile-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 60px auto 60px auto;
+    padding: 20px 20px;
+    background-color: #679436;
+    width: 600px;
+    border-radius: 15px;
+    box-shadow: 8px 8px #a5be00;
+    color: #ebf2fa;
+}
+
+#profile-txt {
+    width: 350px;
+    height: auto;
+    text-align: center;
+}
+    
+#profile-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border:5px solid #a5be00 ;
+    
+}
